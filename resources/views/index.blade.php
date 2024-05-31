@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
 </head>
 <body>
@@ -19,11 +21,10 @@
         <ul class="space-y-2 font-medium">
             <li>
                 <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                    <svg class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 21">
-                    <path d="M16.975 11H10V4.025a1 1 0 0 0-1.066-.998 8.5 8.5 0 1 0 9.039 9.039.999.999 0 0 0-1-1.066h.002Z"/>
-                    <path d="M12.5 0c-.157 0-.311.01-.565.027A1 1 0 0 0 11 1.02V10h8.975a1 1 0 0 0 1-.935c.013-.188.028-.374.028-.565A8.51 8.51 0 0 0 12.5 0Z"/>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none" class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 18" >
+                        <path d="M4.375 16.25C4.375 10.382 9.13198 5.625 15 5.625C20.2477 5.625 24.607 9.4295 25.4699 14.4307C26.5044 15.0889 27.2437 16.1694 27.445 17.4296C27.4814 17.0413 27.5 16.6477 27.5 16.25C27.5 9.34644 21.9035 3.75 15 3.75C8.09644 3.75 2.5 9.34644 2.5 16.25C2.5 19.6976 3.89694 22.8206 6.15342 25.0811C6.51923 25.4475 7.11281 25.448 7.47925 25.0822C7.84569 24.7165 7.8462 24.1229 7.4804 23.7564C5.56051 21.8331 4.375 19.1809 4.375 16.25ZM22.7385 13.7669C21.6892 10.494 18.6213 8.125 15 8.125C10.5127 8.125 6.875 11.7627 6.875 16.25C6.875 18.4948 7.78659 20.5285 9.25751 21.998C9.62381 22.364 10.2174 22.3636 10.5833 21.9974C10.9493 21.6311 10.949 21.0375 10.5827 20.6715C9.4494 19.5394 8.75 17.9773 8.75 16.25C8.75 12.7983 11.5482 10 15 10C17.7814 10 20.1385 11.8169 20.9491 14.3286C21.4846 14.021 22.0914 13.8235 22.7385 13.7669ZM11.875 16.25C11.875 14.5241 13.2741 13.125 15 13.125C16.7259 13.125 18.125 14.5241 18.125 16.25C18.125 17.9759 16.7259 19.375 15 19.375C13.2741 19.375 11.875 17.9759 11.875 16.25ZM15 15C14.3096 15 13.75 15.5596 13.75 16.25C13.75 16.9404 14.3096 17.5 15 17.5C15.6904 17.5 16.25 16.9404 16.25 16.25C16.25 15.5596 15.6904 15 15 15ZM26.25 18.125C26.25 19.8509 24.8509 21.25 23.125 21.25C21.3991 21.25 20 19.8509 20 18.125C20 16.3991 21.3991 15 23.125 15C24.8509 15 26.25 16.3991 26.25 18.125ZM28.75 24.8438C28.75 26.7894 27.1429 28.75 23.125 28.75C19.1071 28.75 17.5 26.7967 17.5 24.8438V24.715C17.5 23.4911 18.4921 22.5 19.7159 22.5H26.5341C27.7579 22.5 28.75 23.4912 28.75 24.715V24.8438Z" fill="blue" fill-opacity=""/>
                     </svg>
-                    <span class="ms-3">Dashboard</span>
+                    <span class="ms-3">Sabstitu teacher</span>
                 </a>
             </li>
             <li>
@@ -183,6 +184,6 @@
         </div>
         </div>
     </div>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 </body>
 </html>
